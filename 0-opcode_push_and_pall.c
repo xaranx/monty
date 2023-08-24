@@ -29,7 +29,9 @@ void _push(stack_t **doubly, unsigned int cline)
 			exit(EXIT_FAILURE);
 		}
 	}
-n = atoi(vglo.arg); 
+
+	n = atoi(vglo.arg);
+
 	if (vglo.lifo == 1)
 		add_dnodeint(doubly, n);
 	else
@@ -38,7 +40,7 @@ n = atoi(vglo.arg);
 
 /**
  * _pall - prints all values on the stack
- *
+	 *
  * @doubly: head of the linked list
  * @cline: line numbers
  * Return: no return
