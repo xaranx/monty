@@ -76,6 +76,8 @@ void _pint(stack_t **doubly, unsigned int cline);
 void _pop(stack_t **doubly, unsigned int cline);
 void _swap(stack_t **doubly, unsigned int cline);
 void _add(stack_t **doubly, unsigned int cline);
+void _nop(stack_t **doubly, unsigned int cline);
+void _putchar(stack_t **doubly, unsigned int cline);
 
 /*opcodes*/
 void (*list_opcodes(char *opc))(stack_t **stack, unsigned int line_number);

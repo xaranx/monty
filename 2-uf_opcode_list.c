@@ -16,17 +16,8 @@ void (*list_opcodes(char *opc))(stack_t **stack, unsigned int line_number)
 		{"pop", _pop},
 		{"swap", _swap},
 		{"add", _add},
-		/*{"queue", _queue},
-		{"stack", _stack},
 		{"nop", _nop},
-		{"sub", _sub},
-		{"mul", _mul},
-		{"div", _div},
-		{"mod", _mod},
-		{"pchar", _pchar},
-		{"pstr", _pstr},
-		{"rotl", _rotl},
-		{"rotr", _rotr},*/
+		{"pchar", _putchar},
 		{NULL, NULL}
 	};
 	int i;
