@@ -38,7 +38,16 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/*opcodes*/
+void (*list_opcodes(char *opc))(stack_t **stack, unsigned int line_number);
 
+/*usefull functions str*/
+int _strcmp(char *s1, char *s2);
+int _sch(char *s, char c);
+char *_strtoky(char *s, char *d);
 
+/*usefull functions malloc calloc*/
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void *_calloc(unsigned int nmemb, unsigned int size);
 
 #endif /* MONTY_H */
