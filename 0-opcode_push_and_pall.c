@@ -11,9 +11,6 @@ void _push(stack_t **doubly, unsigned int cline)
 {
 	int n, j;
 
-	if (doubly == NULL)
-		exit(EXIT_FAILURE);
-
 	if (!vglo.arg)
 	{
 		dprintf(2, "L%u: ", cline);
