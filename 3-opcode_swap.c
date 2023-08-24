@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * _swap - swaps the top two elements of the stack
- *
- * @doubly: head of the linked list
- * @cline: line number
- * Return: no return
- */
+* _swap - swaps the top two elements of the stack
+*
+* @doubly: head of the linked list
+* @cline: line number
+* Return: no return
+*/
 void _swap(stack_t **doubly, unsigned int cline)
 {
 	int m = 0;
